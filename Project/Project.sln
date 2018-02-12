@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2026
+VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project", "Project\Project.csproj", "{CAAF868D-C0F2-4D80-AC87-EAFE9C335BAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEP-171.Module_II", "SEP-171.Module_\SEP-171.Module_II.csproj", "{27F7E02E-A20B-491A-B963-1CA0235CCEE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{CAAF868D-C0F2-4D80-AC87-EAFE9C335BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAAF868D-C0F2-4D80-AC87-EAFE9C335BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAAF868D-C0F2-4D80-AC87-EAFE9C335BAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F7E02E-A20B-491A-B963-1CA0235CCEE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F7E02E-A20B-491A-B963-1CA0235CCEE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F7E02E-A20B-491A-B963-1CA0235CCEE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F7E02E-A20B-491A-B963-1CA0235CCEE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

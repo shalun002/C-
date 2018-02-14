@@ -185,10 +185,11 @@ namespace HomeWork_1
                         c.	третьи степени всех целых чисел от a до 50 (значение a вводится с клавиатуры; a < 50);
                         d.	все целые числа от a до b (значения a и b вводятся с клавиатуры; b > a). */
 
-            int a = 5, b = 10, c = 21;
-            Console.WriteLine(a);
-            Console.WriteLine(b);
-            Console.WriteLine(c);
+            for (int i = 20; i <= 35; i++)
+            {
+                Console.WriteLine(i);
+            }
+            
 
             Console.ReadLine();
 

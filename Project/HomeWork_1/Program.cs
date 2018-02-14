@@ -179,21 +179,67 @@ namespace HomeWork_1
 
             // ===========================================================================================================
 
-            /*  10. Напечатать "столбиком": 
-                        a.	все целые числа от 20 до 35;
-                        b.	квадраты всех целых чисел от 10 до b (значение b вводится с клавиатуры; b > 10);
-                        c.	третьи степени всех целых чисел от a до 50 (значение a вводится с клавиатуры; a < 50);
-                        d.	все целые числа от a до b (значения a и b вводятся с клавиатуры; b > a). */
+            ///*  10. Напечатать "столбиком": 
+            //            a.	все целые числа от 20 до 35;
+            //            b.	квадраты всех целых чисел от 10 до b (значение b вводится с клавиатуры; b > 10);
+            //            c.	третьи степени всех целых чисел от a до 50 (значение a вводится с клавиатуры; a < 50);
+            //            d.	все целые числа от a до b (значения a и b вводятся с клавиатуры; b > a). */
 
-            for (int i = 20; i <= 35; i++)
-            {
-                Console.WriteLine(i);
-            }
-            
+            //for (int i = 20; i <= 35; i++)
+            //{
+            //    Console.Write(i + " ");
+            //}
+            //Console.WriteLine();
+            //Console.ReadLine();
 
-            Console.ReadLine();
+            //Console.WriteLine("Введите конечное значение: ");
+            //int num = int.Parse(Console.ReadLine());
 
+            //if (num <= 10)
+            //{
+            //    Console.WriteLine("Error");
+            //}
+            //else
+            //{
+            //    for (int i = 10; i < num; i++)
+            //    {
+            //        Console.Write((i * i) + " ");
+            //    }
+            //}
+            //Console.WriteLine();
+            //Console.ReadLine();
 
+            //Console.WriteLine("Введите начальное значение: ");
+            //int numFirst = int.Parse(Console.ReadLine());
+
+            //if (num >= 50)
+            //{
+            //    Console.WriteLine("Error");
+            //}
+            //else
+            //{
+            //    for (int i = numFirst; i < 50; i++)
+            //    {
+            //        Console.Write((i * i * i) + " ");
+            //    }
+            //}
+            //Console.WriteLine();
+            //Console.ReadLine();
+
+            //Console.WriteLine("Введите начальное значение: ");
+            //int numFirstTwo = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine();
+
+            //Console.WriteLine("Введите конечное значение: ");
+            //int numSecond = int.Parse(Console.ReadLine());
+
+            //for (int i = numFirstTwo; i < numSecond; i++)
+            //{
+            //    Console.Write(i + " ");
+            //}
+            //Console.WriteLine();
+            //Console.ReadLine();
         }
     }
 }

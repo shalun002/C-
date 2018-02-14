@@ -42,7 +42,7 @@ namespace Array
             //Console.ReadLine();
 
             // зубчатый массив
-            Random random = new Random();
+            Random random = new Random();    // генератор случайных чисел
 
             int[][] juggedArray = new int[5][];
             for (int i = 0; i < 5; i++)

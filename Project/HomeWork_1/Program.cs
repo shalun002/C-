@@ -74,6 +74,18 @@ namespace HomeWork_1
             //                   b. А и В;
             //                   c. В или С. */
             //
+            //bool A = true;
+            //bool B = false;
+            //bool C = false;
+            //bool sum;
+            //
+            //sum = (A || B);
+            //Console.WriteLine(sum);
+            //sum = (A && B);
+            //Console.WriteLine(sum);
+            //sum = (B || C);
+            //Console.WriteLine(sum);
+            //
             //Console.ReadLine();
 
             // ===========================================================================================================

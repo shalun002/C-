@@ -231,39 +231,43 @@ namespace ConsoleApplication1
             //}
             //Console.WriteLine(smth.ToString().Length);
 
-            string code = "loldaaawwwffg";
+            //string code = "loldaaawwwffg";
 
-            //Console.WriteLine(code.Contains("wffgg"));
+            ////Console.WriteLine(code.Contains("wffgg"));
 
-            string newString = code.Replace("wwff", "y");
+            //string newString = code.Replace("wwff", "y");
 
-            char[] reversed = code.Reverse().ToArray();
+            //char[] reversed = code.Reverse().ToArray();
 
-            string reversedString = new string(reversed);
+            //string reversedString = new string(reversed);
 
-            // Console.WriteLine(reversedString);
+            //// Console.WriteLine(reversedString);
 
-            string newStringWithCopies = "aaaabbbcccddde";
-            char[] districtValues = newStringWithCopies.Distinct().ToArray();
+            //string newStringWithCopies = "aaaabbbcccddde";
+            //char[] districtValues = newStringWithCopies.Distinct().ToArray();
 
-            string updatedValue = new string(districtValues);
-            //Console.WriteLine(updatedValue);
-
-
-            Console.WriteLine(updatedValue + " " + newString);
+            //string updatedValue = new string(districtValues);
+            ////Console.WriteLine(updatedValue);
 
 
-            Console.WriteLine("{1} {1} {1}", updatedValue, newString, newStringWithCopies); // String Formatting
-            string secret = "***";
-            Console.WriteLine($"Hello it is my string { DateTime.Now } lol lol lol lol"); // String Interpolation
+            //Console.WriteLine(updatedValue + " " + newString);
 
-            Console.OutputEncoding = UTF8Encoding.UTF8;
-            Thread.CurrentThread.CurrentCulture = new CultureInfo("us");
 
-            int salary = 100000;
-            string value = string.Format(new CultureInfo("kz-KZ"), "{0:C}", salary);
-            Console.WriteLine(value);
-            #endregion
+            //Console.WriteLine("{1} {1} {1}", updatedValue, newString, newStringWithCopies); // String Formatting
+            //string secret = "***";
+            //Console.WriteLine($"Hello it is my string { DateTime.Now } lol lol lol lol"); // String Interpolation
+
+            //Console.OutputEncoding = UTF8Encoding.UTF8;
+            //Thread.CurrentThread.CurrentCulture = new CultureInfo("us");
+
+            //int salary = 100000;
+            //string value = string.Format(new CultureInfo("kz-KZ"), "{0:C}", salary);
+            //Console.WriteLine(value);
+            //#endregion
+
+
+
+
             Console.ReadLine();
         }
     }

@@ -14,7 +14,7 @@ namespace OOP_2.Classes
         private char[] _ipBinaryRepresentation;
         private int _subnetMask;
         private const int
-            IpRangeMaxValue = 255,
+            IpRangeMaxValue = 254,
             IpRangeMinValue = 0,
             IpBinaryLength = 4 * 8; // 4 blocks with 8 bits
 
